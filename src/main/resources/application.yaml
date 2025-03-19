@@ -1,0 +1,9 @@
+quarkus:
+  datasource:
+    jdbc:
+      url: jdbc:postgresql://localhost:5432/learn
+    username: postgres
+    password: 123qwe
+  hibernate-orm:
+    database:
+      generation: update
