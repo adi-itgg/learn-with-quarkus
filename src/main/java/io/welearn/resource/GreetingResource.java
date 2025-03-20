@@ -1,5 +1,6 @@
-package io.welearn;
+package io.welearn.resource;
 
+import io.welearn.model.MyEntity;
 import jakarta.transaction.Transactional;
 import jakarta.ws.rs.GET;
 import jakarta.ws.rs.Path;

@@ -1,4 +1,4 @@
-package io.welearn;
+package io.welearn.model;
 
 import io.quarkus.hibernate.orm.panache.PanacheEntity;
 import jakarta.persistence.Entity;
