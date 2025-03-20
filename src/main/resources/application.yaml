@@ -7,3 +7,8 @@ quarkus:
   hibernate-orm:
     database:
       generation: update
+  http:
+    access-log:
+      enabled: true
+      pattern: '%{i,Remote-Addr} - %u "%r" %s %b %Dms'
+    record-request-start-time: true
